@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseAuth {
+public struct FirebaseAuth: Equatable {
     public var app: FirebaseAuthApp?
     public var currentUser: FirebaseUser?
     public var languageCode: String?

@@ -8,8 +8,7 @@
 
 import Foundation
 
-public struct FirebaseMultifactorInfo {
-    
+public struct FirebaseMultifactorInfo: Equatable {
     public var uid: String?
     public var displayName: String?
     public var enrollmentDate: Date?

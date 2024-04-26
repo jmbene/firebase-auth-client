@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseOps {
+public struct FirebaseOps: Equatable {
     public var apiKey: String?
     public var bundleId: String?
     public var clientId: String?

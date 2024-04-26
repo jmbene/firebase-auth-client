@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseListener {
+public struct FirebaseListener: Equatable {
     public var auth: FirebaseAuth?
     public var user: FirebaseUser?
     

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseUserInfo {
+public struct FirebaseUserInfo: Equatable {
     public var providerId: String?
     public var uid: String?
     public var displayName: String?

@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseAuthApp {
+public struct FirebaseAuthApp: Equatable {
     public var name: String?
     public var options: FirebaseOps
     

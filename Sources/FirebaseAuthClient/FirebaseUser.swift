@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseUser {
+public struct FirebaseUser: Equatable {
     public var anonymous: Bool
     public var emailVerified: Bool
     public var refreshToken: String?

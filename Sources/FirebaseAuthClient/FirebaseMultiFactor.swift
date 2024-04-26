@@ -9,7 +9,7 @@
 import Foundation
 
 #if os(iOS)
-public struct FirebaseMultiFactor {
+public struct FirebaseMultiFactor: Equatable {
     public var multifactor: [FirebaseMultifactorInfo]
     
     public init(multifactor: [FirebaseMultifactorInfo]) {

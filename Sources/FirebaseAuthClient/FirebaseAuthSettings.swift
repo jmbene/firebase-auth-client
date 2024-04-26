@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseAuthSettings {
+public struct FirebaseAuthSettings: Equatable {
     public var appVerificationDisabledForTesting: Bool
     
     public init(appVerificationDisabledForTesting: Bool) {

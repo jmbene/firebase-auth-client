@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseUserMetadata {
+public struct FirebaseUserMetadata: Equatable {
     public var lastSignInDate: Date?
     public var creationDate: Date?
     

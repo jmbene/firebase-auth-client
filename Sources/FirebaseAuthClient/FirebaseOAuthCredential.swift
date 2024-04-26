@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct FirebaseOAuthCredential {
+public struct FirebaseOAuthCredential: Equatable {
     public var idToken: String?
     public var accessToken: String?
     public var secret: String?
